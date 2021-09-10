@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/list-product.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Danh sách các sản phẩm</h1>
+        <ul class="tab">
+            <li class="tab-item" onclick="myChangeList('list-one',this)">Mới nhất</li>
+            <li class="tab-item" onclick="myChangeList('list-two',this)">Bán Chạy</li>
+            <li class="tab-item" onclick="myChangeList('list-three',this)">Phổ biến</li>
+        </ul>
+        <div class="animation">
+            <ul class="list" id="list-one">
+                <li><img src="/assets/img/Cr7.jpg " alt="" class="img-item"></li>
+                <li><img src="/assets/img/Benzema.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/Bale.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/CR7.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/neymar.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/anh169-1.jpg" alt="" class="img-item"></li>
+            </ul>
+            <ul class="list" id="list-two">
+                <li><img src="/assets/img/Benzema.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/Cr7.jpg " alt="" class="img-item"></li>
+                <li><img src="/assets/img/neymar.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/CR7.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/anh169-1.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/Bale.jpg" alt="" class="img-item"></li>
+            </ul>
+            <ul class="list" id="list-three">
+                <li><img src="/assets/img/Bale.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/anh169-1.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/Cr7.jpg " alt="" class="img-item"></li>
+                <li><img src="/assets/img/Benzema.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/neymar.jpg" alt="" class="img-item"></li>
+                <li><img src="/assets/img/CR7.jpg" alt="" class="img-item"></li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="/assets/js/list-product.js"></script>
+</body>
+</html>

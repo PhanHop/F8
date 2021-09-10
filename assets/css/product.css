@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li img{
+    width:150px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+ul li{
+    list-style: none;
+}
+ul,.main{
+    float: left;
+}
+.main img{
+    width:400px;
+    margin-top: 10px;
+    margin-left: 40px;
+}

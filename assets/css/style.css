@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.take-white{
+    color:white !important;
+}
+#main{
+
+}
+#header{
+    height: 46px;
+    position: fixed;
+    background-color: black;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+#nav {
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+#nav.nav-down{
+    font-size: 13;
+}
+#nav>li{
+    display: inline-block;
+    position: relative;
+}
+#nav>li>a{
+    text-transform: uppercase;
+}
+#nav li a{
+    color: aliceblue;
+    padding:0px 20px;
+    text-align: center;
+    line-height: 46px;
+    display: block;
+    text-decoration: none;
+}
+#nav .subnav {
+    display: none;
+    position:absolute;
+    background-color:rgb(213, 179, 245);
+}
+#nav.subnav li{
+    display: block;
+}
+#nav .subnav li a{
+    color: black;
+    display: block;
+}
+#nav>li:hover>a{
+    background-color: gray;
+}
+#nav>li:hover .subnav{
+    display: block;
+}
+#header .search-btn{
+    float: right;
+    padding: 0 20px;
+}
+#header .search-btn:hover{
+    background-color: tomato;
+    cursor:pointer;
+}
+#header .search-icon{
+    color:white;
+    line-height: 46px;
+    
+}
+a:hover{
+    background-color: green;
+}
+#slider{
+    margin-top: 46px;
+    padding-top: 48%;
+    background: url(/assets/img/AnhReal1.jpg) center /cover no-repeat;
+}
+#slider .text-content{
+    position:absolute;
+    bottom: 20px;
+    color:white;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+#slider .text-heading{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#slider .text-description{
+    font-size: 15px;
+}
+#content{
+
+}
+#content .content-section{
+    width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+    padding:60px 0;
+    
+}
+#content .section-heading{
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+#content .slogan{
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+#content .section-text{
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#content .player{
+    float:left;
+    width:33.333%;
+    left: auto;
+    right: auto;
+    
+}
+#content .member-list{
+    overflow: hidden;
+    margin-top: 60px;
+    width:100%;
+    text-align: center;
+}
+#content .img-name{
+    width:200px;
+    height:350px;
+    left: 33px;
+}
+#content .tour-section{
+    background-color:black;
+}
+#content .ticket-match{
+    text-align: center;
+}
+.stadium-list{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+}
+.stadium-ticket{
+    background-color: white;
+    float:left;
+    margin:15px;
+}
+.stadium-img{
+    width:220px;
+    height:160px;
+}
+.buy-ticket{
+    background-color:rgb(223, 94, 35);
+    text-decoration: none;
+    float:right;
+    margin-top: 40px;
+    padding: 6px;
+    color:white;
+    font-weight: bold;
+}
+.body-ticket{
+    line-height: 1.4;
+    padding-bottom: 25px;
+}
+#footer{
+
+}
